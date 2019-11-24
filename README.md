@@ -4,13 +4,13 @@
  - Defend against attacks
  
 Developed Tools
- - Attacks
-  -- FGSM : Normal, Targeted, Iterative
+ Attacks
+  - FGSM : Normal, Targeted, Iterative
  
 In Development
- - Attacks
-  -- Jacobian Based Saliency Map Attack
- - Defenses
-  -- Barrage of Random Transforms
-  -- Adversarial Training
+ Attacks
+  - Jacobian Based Saliency Map Attack
+ Defenses
+  - Barrage of Random Transforms
+  - Adversarial Training
  
