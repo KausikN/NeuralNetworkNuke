@@ -5,12 +5,12 @@
  
 Developed Tools
  - Attacks
-  - FGSM : Normal, Targeted, Iterative
+  -- FGSM : Normal, Targeted, Iterative
  
 In Development
  - Attacks
-  - Jacobian Based Saliency Map Attack
+  -- Jacobian Based Saliency Map Attack
  - Defenses
-  - Barrage of Random Transforms
-  - Adversarial Training
+  -- Barrage of Random Transforms
+  -- Adversarial Training
  
