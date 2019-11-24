@@ -3,14 +3,14 @@
  - Attack Neural Networks
  - Defend against attacks
  
-Developed Tools
- Attacks
+# Developed Tools
+## Attacks
   - FGSM : Normal, Targeted, Iterative
  
-In Development
- Attacks
+# In Development
+## Attacks
   - Jacobian Based Saliency Map Attack
- Defenses
+## Defenses
   - Barrage of Random Transforms
   - Adversarial Training
  
