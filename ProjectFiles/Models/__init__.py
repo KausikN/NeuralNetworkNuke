@@ -1,1 +1,0 @@
-# Init For BasicFNNModel Package

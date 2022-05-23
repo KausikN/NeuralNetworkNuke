@@ -1,0 +1,155 @@
+{
+    "name": "NeuralNetworkNuke",
+    "repoLink": "https://github.com/KausikN/NeuralNetworkNuke",
+    "localPath": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+    "modules": {
+        "app.py": {
+            "name": "app",
+            "type": "local",
+            "link": "https://github.com/KausikN/NeuralNetworkNuke/blob/master/app.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "",
+            "dependencies": [
+                "os.py",
+                "streamlit.py",
+                "json.py"
+            ]
+        },
+        "NeuralNetworkNuke.py": {
+            "name": "NeuralNetworkNuke",
+            "type": "local",
+            "link": "https://github.com/KausikN/NeuralNetworkNuke/blob/master/NeuralNetworkNuke.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "",
+            "dependencies": [
+                "*.py",
+                "*.py",
+                "*.py"
+            ]
+        },
+        "Library/Attacks/FGSM.py": {
+            "name": "FGSM",
+            "type": "local",
+            "link": "https://github.com/KausikN/NeuralNetworkNuke/blob/master/Library/Attacks/FGSM.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "Library/Attacks",
+            "dependencies": [
+                "torch.py",
+                "random.py",
+                "numpy.py",
+                "matplotlib/pyplot.py",
+                "Variable.py"
+            ]
+        },
+        "Utils/Dataset.py": {
+            "name": "Dataset",
+            "type": "local",
+            "link": "https://github.com/KausikN/NeuralNetworkNuke/blob/master/Utils/Dataset.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "Utils",
+            "dependencies": [
+                "torch.py",
+                "numpy.py",
+                "mnist.py"
+            ]
+        },
+        "Utils/Model.py": {
+            "name": "Model",
+            "type": "local",
+            "link": "https://github.com/KausikN/NeuralNetworkNuke/blob/master/Utils/Model.py",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "Utils",
+            "dependencies": [
+                "pickle.py"
+            ]
+        },
+        "pickle.py": {
+            "name": "pickle",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "",
+            "dependencies": []
+        },
+        "streamlit.py": {
+            "name": "streamlit",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "",
+            "dependencies": []
+        },
+        "*.py": {
+            "name": "*",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "",
+            "dependencies": []
+        },
+        "Variable.py": {
+            "name": "Variable",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "",
+            "dependencies": []
+        },
+        "random.py": {
+            "name": "random",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "",
+            "dependencies": []
+        },
+        "mnist.py": {
+            "name": "mnist",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "",
+            "dependencies": []
+        },
+        "torch.py": {
+            "name": "torch",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "",
+            "dependencies": []
+        },
+        "numpy.py": {
+            "name": "numpy",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "",
+            "dependencies": []
+        },
+        "matplotlib/pyplot.py": {
+            "name": "pyplot",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "matplotlib",
+            "dependencies": []
+        },
+        "json.py": {
+            "name": "json",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "",
+            "dependencies": []
+        },
+        "os.py": {
+            "name": "os",
+            "type": "inbuilt",
+            "link": "",
+            "parentDir": "E:/Github Codes and Projects/Projects/NeuralNetworkNuke",
+            "subDir": "",
+            "dependencies": []
+        }
+    }
+}
