@@ -81,7 +81,7 @@ def fgsm_attack():
     if st.button("Attack"):
         # Load Model
         MODEL_DATA = NeuralNetworkNuke.MODELS[USERINPUT_Model]
-        MODEL = NeuralNetworkNuke.Model_LoadPickle(MODEL_DATA["model_path"])
+        MODEL = NeuralNetworkNuke.Model_LoadModel(MODEL_DATA["model_path"])
         # Load Dataset
         DATASET = MODEL_DATA["dataset_loader"]()
         RANDOM_IMAGE = UI_LoadDatasetSubset_MNIST(DATASET)

@@ -8,6 +8,7 @@ import random
 import numpy as np
 import matplotlib.pyplot as plt
 from torch.autograd import Variable
+from torch import nn
 
 # Main Classes
 class FGSM:
@@ -36,7 +37,7 @@ class FGSM:
 
         cost = self.loss_func(h_adv, y)
         # Cost should be negative if not targeted
-        if not targeted: cost = -cost 
+        if not targeted: cost = -cost
 
         self.net.zero_grad()
         if x_adv.grad is not None: x_adv.grad.data.fill_(0)
@@ -68,7 +69,12 @@ def FGSM_Display_MNIST(model, X, Y, y_target=None, eps=0.25, cmap="Greys", verbo
     # x_adv_flattened - new image
     # h_adv - predicted for x_adv_flattened
     # h - predicted for original x
-    x_adv_flattened, h_adv, h = att_fgsm.fgsm(x_flattened, y_pred, model.net, model.loss_fn, True, eps)
+    # print(dir(model))
+    # print()
+    # print(model.__dict__)
+    # x_adv_flattened, h_adv, h = att_fgsm.fgsm(x_flattened, y_pred, model.net, model.loss_fn, True, eps)
+    loss_fn = nn.MSELoss()
+    x_adv_flattened, h_adv, h = att_fgsm.fgsm(x_flattened, y_pred, model, loss_fn, True, eps)
     # Get Outputs
     x_flattened = np.array(x_flattened)
     x_adv = x_adv_flattened.reshape(X.shape)
