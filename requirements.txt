@@ -1,5 +1,5 @@
-keras==2.6.0
-matplotlib==3.4.3
-numpy==1.19.5
-streamlit==1.8.1
-torch==1.10.0
+streamlit
+matplotlib
+numpy
+keras
+torch
